@@ -7,7 +7,9 @@ syntax on
 filetype plugin indent on
 
 set ts=4 sts=4 sw=4 expandtab
-set nu!
+set nu
+set incsearch
+set hlsearch
 set backspace=2
 
 set background=dark
@@ -16,7 +18,7 @@ colorscheme seti
 " Show Invisible characters
 " http://vimcasts.org/episodes/show-invisibles/
 set listchars=tab:»\ ,eol:¬
-set list!
+set list
 "Invisible character colors 
 highlight NonText guifg=#232c2d guibg=#151718
 highlight SpecialKey guifg=#232c2d guibg=#151718
@@ -27,7 +29,9 @@ autocmd! BufWritePost,BufReadPost *.js JSHint
 autocmd! BufWritePost *.cls.*.component,*.page !mavensmate compile-metadata <afile>
 
 " Unite
-let g:unite_source_rec_async_command = ['C:\\Users\\scott.bachman\\vimfiles\\ag', '--follow', '--nocolor', '--nogroup', '--hidden', '-g', '']
+if has('gui_win32')
+    let g:unite_source_rec_async_command = ['C:\\Users\\scott.bachman\\vimfiles\\ag', '--follow', '--nocolor', '--nogroup', '--hidden', '-g', '']
+endif
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 nnoremap <leader>t :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async:!<cr>
