@@ -26,7 +26,9 @@ highlight SpecialKey guifg=#232c2d guibg=#151718
 " JSHint
 autocmd! BufWritePost,BufReadPost *.js JSHint
 
-autocmd! BufWritePost *.cls.*.component,*.page !mavensmate compile-metadata <afile>
+" Force.com / mavensmate
+autocmd! BufWritePost *.cls,*.component,*.page !mavensmate compile-metadata <afile>
+autocmd FileType visualforce setlocal noexpandtab
 
 " Unite
 if has('gui_win32')
