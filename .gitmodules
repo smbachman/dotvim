@@ -34,6 +34,6 @@
 [submodule "vim-javascript-syntax"]
 	path = bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax
-[submodule "vimproc.vim"]
+[submodule "bundle/vimproc.vim"]
 	path = bundle/vimproc.vim
-	url = https://github.com/Shougo/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git

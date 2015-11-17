@@ -26,7 +26,9 @@ highlight SpecialKey guifg=#232c2d guibg=#151718
 " JSHint
 autocmd! BufWritePost,BufReadPost *.js JSHint
 
-autocmd! BufWritePost *.cls.*.component,*.page !mavensmate compile-metadata <afile>
+" Force.com / mavensmate
+autocmd! BufWritePost *.cls,*.component,*.page !mavensmate compile-metadata <afile>
+autocmd FileType visualforce setlocal noexpandtab
 
 " Unite
 if has('gui_win32')
@@ -48,5 +50,8 @@ if has('gui_running')
     if has('gui_win32')
         au GUIEnter * simalt ~x " maximize window
         set guifont=Consolas:h11:cANSI
+    endif
+    if has('gui_macvim')
+        set guifont=Monaco:h14
     endif
 endif	
