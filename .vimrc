@@ -49,4 +49,7 @@ if has('gui_running')
         au GUIEnter * simalt ~x " maximize window
         set guifont=Consolas:h11:cANSI
     endif
+    if has('gui_macvim')
+        set guifont=Monaco:h14
+    endif
 endif	
