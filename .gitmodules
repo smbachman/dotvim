@@ -37,3 +37,12 @@
 [submodule "bundle/vimproc.vim"]
 	path = bundle/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/omnisharp-vim"]
+	path = bundle/omnisharp-vim
+	url = https://github.com/OmniSharp/omnisharp-vim
+[submodule "bundle\\vim-dispatch"]
+	path = bundle\\vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
+[submodule "bundle\\syntastic"]
+	path = bundle\\syntastic
+	url = https://github.com/scrooloose/syntastic
