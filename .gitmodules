@@ -40,12 +40,12 @@
 [submodule "bundle/omnisharp-vim"]
 	path = bundle/omnisharp-vim
 	url = https://github.com/OmniSharp/omnisharp-vim
-[submodule "bundle\\vim-dispatch"]
-	path = bundle\\vim-dispatch
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
-[submodule "bundle\\syntastic"]
-	path = bundle\\syntastic
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule "bundle\\vim-ps1"]
-	path = bundle\\vim-ps1
+[submodule "bundle/vim-ps1"]
+	path = bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
