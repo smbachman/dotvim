@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='D:/Projects/SOAServices/Landing'
+let g:netrw_dirhist_2='C:/Oracle/oc4j10133/j2ee/home/config'
+let g:netrw_dirhist_3='D:/Projects/RMT/RMTSolution/Src/RMT.Web'
+let g:netrw_dirhist_4='D:/Projects/RMT/RMTSolution/Src/RMT.Web/client'
+let g:netrw_dirhist_5='D:/Projects/RMT/RMTSolution/Src/RMT.Web/client/main'
+let g:netrw_dirhist_6='D:/Projects/RMT/RMTSolution/Src/RMT.Web/client/main/views'
+let g:netrw_dirhist_7='D:/Projects/RMT/RMTSolution/Src/RMT.Web/client/main/views/admin'
